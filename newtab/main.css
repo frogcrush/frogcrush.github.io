@@ -1,0 +1,50 @@
+body, html, .flex-container {
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', 'Open Sans', 'Roboto', Arial;
+    background: #333333;
+    color: #e2e2e2;
+    font-size: 16pt;
+    font-weight: lighter;
+}
+
+* {
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+.flexy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.tile {
+    min-width: 160px;
+    min-height: 160px;
+    max-width: 160px;
+    max-height: 160px;
+    margin: 5px;
+    background: #1E1E1E;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.tile:hover {
+    background-color: #232323;
+}
+
+.tile-container{
+    max-width: 850px;
+}
+
+@media only screen and (max-width: 870px){
+    .tile-container {
+        max-width: 80%;
+    }
+}       
