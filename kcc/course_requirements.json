@@ -1,80 +1,94 @@
-[
-    {
-        "title": "Bachelors of Computing Science",
-        "specificRequirements": [
-            {
-                "subject": "COMP",
-                "number": 1130
-            },
-            {
-                "subject": "COMP",
-                "number": 1230
-            },
-            {
-                "subject": "MATH",
-                "number": 1700
-            },
-            {
-                "subject": "MATH",
-                "number": 1650
-            },
-            {
-                "subject": "COMP",
-                "number": 2130
-            },
-            {
-                "subject": "COMP",
-                "number": 2230
-            },
-            {
-                "subject": "COMP",
-                "number": 2160
-            },
-            {
-                "subject": "COMP",
-                "number": 2680
-            },
-            {
-                "subject": "COMP",
-                "number": 2210
-            },
-            {
-                "subject": "COMP",
-                "number": 2920
-            },
-            {
-                "subject": "ENGL",
-                "number": 1130
-            },
-            {
-                "subject": "CMNS",
-                "number": 1290
-            }
-        ],
-        "totalCreditsReq": 120,
-        "electiveRequirements": [
-            {
-                "subjectsRequired": null,
-                "subjectsExcluded": [
-                    "COMP"
-                ],
-                "minLevel": 0,
-                "creditsRequired": 9
-            },
-            {
-                "subjectsRequired": null,
-                "subjectsExcluded": [
-                    "SCI", "COMP"
-                ],
-                "minLevel": 0,
-                "creditsRequired": 3
-            },
-            {
-                "subjectsRequired": null,
-                "subjectsExcluded": null,
-                "minLevel": 0,
-                "creditsRequired": 12
-            }
-        ]
-    }
-]
+{
+    "majors": [
+        {
+            "shortCode": "BCS",
+            "title": "Bachelors of Computing Science",
+            "specificRequirements": [
+                {
+                    "subject": "COMP",
+                    "number": 1130
+                },
+                {
+                    "subject": "COMP",
+                    "number": 1230
+                },
+                {
+                    "subject": "MATH",
+                    "number": 1700
+                },
+                {
+                    "subject": "MATH",
+                    "number": 1650
+                },
+                {
+                    "subject": "COMP",
+                    "number": 2130
+                },
+                {
+                    "subject": "COMP",
+                    "number": 2230
+                },
+                {
+                    "subject": "COMP",
+                    "number": 2160
+                },
+                {
+                    "subject": "COMP",
+                    "number": 2680
+                },
+                {
+                    "subject": "COMP",
+                    "number": 2210
+                },
+                {
+                    "subject": "COMP",
+                    "number": 2920
+                },
+                {
+                    "subject": "ENGL",
+                    "number": 1130
+                },
+                {
+                    "subject": "CMNS",
+                    "number": 1290
+                }
+            ],
+            "totalCreditsReq": 120,
+            "electiveRequirements": [
+                {
+                    "subjectsRequired": null,
+                    "subjectsExcluded": [
+                        "COMP"
+                    ],
+                    "minLevel": 0,
+                    "creditsRequired": 9
+                },
+                {
+                    "subjectsRequired": null,
+                    "subjectsExcluded": [
+                        "SCI",
+                        "COMP"
+                    ],
+                    "minLevel": 0,
+                    "creditsRequired": 3
+                },
+                {
+                    "subjectsRequired": null,
+                    "subjectsExcluded": null,
+                    "minLevel": 0,
+                    "creditsRequired": 12
+                }
+            ]
+        }
+    ],
+    "minors": [
+        {
+            "appliesTo": [
+                "BCS"
+            ],
+            "title": "Management",
+            "specificRequirements": [],
+            "electiveRequirements": []
+        }
+    ]
+}
