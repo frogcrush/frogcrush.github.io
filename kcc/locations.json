@@ -55,7 +55,7 @@
     },
     {
         "id": 7,
-        "title": "Trades Upper Entrance",
+        "title": "Trades Upper Entrance Microwave",
         "description": "Located in the second floor of the Trade Building, right by the upper second front entrance by the Horticultural Gardens. The microwave is located immediately to the left after entering the building.",
         "locationType": 0,
         "latitude": 50.6719524,
@@ -64,7 +64,7 @@
     },
     {
         "id": 8,
-        "title": "Trades Cafe",
+        "title": "Trades Cafe Microwave",
         "description": "Located in the second floor of the Trades Building, right by the Trades Cafe in the upper floor of the rounded glass area of the building. 3 microwaves immediately outside the Trades Cafe lunch area.",
         "locationType": 0,
         "latitude": 50.67191227,
@@ -73,7 +73,7 @@
     },
     {
         "id": 9,
-        "title": "Trades Ground Floor",
+        "title": "Trades Ground Floor Microwave",
         "description": "Located in the ground floor of the Trades Building by the main entrance. From the main entrance, take the left hallway. The microwave is immediately after the first set of doors.",
         "locationType": 0,
         "latitude": 50.6719348,
@@ -82,7 +82,7 @@
     },
     {
         "id": 10,
-        "title": "Piping Apprenticeship",
+        "title": "Piping Apprenticeship Microwave",
         "description": "From the main entrance, take the left hallway for roughtly half its length until you reach room TT129 (on your left). The microwave is visible from the hallway.",
         "locationType": 0,
         "latitude": 50.6715709,
@@ -91,7 +91,7 @@
     },
     {
         "id": 11,
-        "title": "Electrical Apprenticeship",
+        "title": "Electrical Apprenticeship Microwave",
         "description": "From the main entrance, take the left hallway for roughtly half its length until you reach room TT135 (on your left). The microwave is visible from the hallway.",
         "locationType": 0,
         "latitude": 50.6715709,
@@ -100,7 +100,7 @@
     },
     {
         "id": 12,
-        "title": "Trades Ground Floor TT129",
+        "title": "Trades Ground Floor TT129 Microwave",
         "description": "From the main entrance, take the left hallway for roughly two thirds of its length until you reach TT129 on the left. The microwave is located in the hallway.",
         "locationType": 0,
         "latitude": 50.6714719,
