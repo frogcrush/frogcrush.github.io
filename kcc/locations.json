@@ -1,11 +1,110 @@
 [
-  { 
-    "id": 1,
-    "title": "Starbucks",
-    "description": "Starbucks is located on BMO Student Street in Old Main, beside the theatre and across from academic advising.",
-    "locationType": 4,
-    "latitude": 50.671383,
-    "longitude": -120.363196,
-    "openTimes": null
+    {
+        "id": 1,
+        "title": "Starbucks",
+        "description": "Starbucks is located on BMO Student Street in Old Main, beside the theatre and across from academic advising.",
+        "locationType": 4,
+        "latitude": 50.671383,
+        "longitude": -120.363196,
+        "openTimes": null
+    },
+    {
+        "id": 2,
+        "title": "OM Second Floor Lunchroom Microwave",
+        "description": "Located in the first floor of Old Main, to reach it from the main foyer of the building go up the staircase, then enter the seating area right before \"Bento Box\"  and after \"U&M Deli\". The microwave is located on the right wall right behind the Bento Sushi, in OM2456.",
+        "locationType": 0,
+        "latitude": 50.67131915,
+        "longitude": -120.36276578,
+        "openTimes": null
+    },
+    {
+        "id": 3,
+        "title": "House of Learning Ground Floor Microwave",
+        "description": "Located in the ground floor of House of Learning, to reach it from the main Campus Commons entrance turn right before Tim Hortons and continue walking until the far corner of the building. The microwave is on a small table on the left.",
+        "locationType": 0,
+        "latitude": 50.6719977,
+        "longitude": -120.3653179,
+        "openTimes": null
+    },
+    {
+        "id": 4,
+        "title": "Third Floor Lunchroom Microwave",
+        "description": "Located on the third floor of the Arts & Education building, to reach it walk up either of the staircases to the left or right of the main Campus Commons entrance, then walk towards the center of the building. The microwave is in the corner with the Third Floor patio entrance, and may be hidden from view by the center wall if coming from the left side of the building.",
+        "locationType": 0,
+        "latitude": 50.67310301,
+        "longitude": -120.36468748,
+        "openTimes": null
+    },
+    {
+        "id": 5,
+        "title": "Student Union Microwave",
+        "description": "Located in the ground floor of the Student Union building, to reach it from either of the Student Union entrances, walk to the right of Common Grounds but not up the stairs. To reach it from the Campus Activity Centre entrance, walk right as much as possible and then continue walking forward until the Student Union washrooms. Turn the first left (not the stairs) after the washrooms. After reaching the end of the brief hallway, turn right again. The three microwaves are located right after the Club Lockers.",
+        "locationType": 0,
+        "latitude": 50.67317008,
+        "longitude": -120.36629533,
+        "openTimes": null
+    },
+    {
+        "id": 6,
+        "title": "Science Building Microwave",
+        "description": "Located in the second floor of the Science Building, in the second room to the right if entering from the entrance opposite the Gymnasium. Room S275. Two microwaves on the right wall.",
+        "locationType": 0,
+        "latitude": 50.66946886,
+        "longitude": -120.36393839,
+        "openTimes": null
+    },
+    {
+        "id": 7,
+        "title": "Trades Upper Entrance",
+        "description": "Located in the second floor of the Trade Building, right by the upper second front entrance by the Horticultural Gardens. The microwave is located immediately to the left after entering the building.",
+        "locationType": 0,
+        "latitude": 50.6719524,
+        "longitude": -120.3684277,
+        "openTimes": null
+    },
+    {
+        "id": 8,
+        "title": "Trades Cafe",
+        "description": "Located in the second floor of the Trades Building, right by the Trades Cafe in the upper floor of the rounded glass area of the building. 3 microwaves immediately outside the Trades Cafe lunch area.",
+        "locationType": 0,
+        "latitude": 50.67191227,
+        "longitude": -120.36754258,
+        "openTimes": null
+    },
+    {
+        "id": 9,
+        "title": "Trades Ground Floor",
+        "description": "Located in the ground floor of the Trades Building by the main entrance. From the main entrance, take the left hallway. The microwave is immediately after the first set of doors.",
+        "locationType": 0,
+        "latitude": 50.6719348,
+        "longitude": -120.3677121,
+        "openTimes": null
+    },
+    {
+        "id": 10,
+        "title": "Piping Apprenticeship",
+        "description": "From the main entrance, take the left hallway for roughtly half its length until you reach room TT129 (on your left). The microwave is visible from the hallway.",
+        "locationType": 0,
+        "latitude": 50.6715709,
+        "longitude": -120.3683576,
+        "openTimes": null
+    },
+    {
+        "id": 11,
+        "title": "Electrical Apprenticeship",
+        "description": "From the main entrance, take the left hallway for roughtly half its length until you reach room TT135 (on your left). The microwave is visible from the hallway.",
+        "locationType": 0,
+        "latitude": 50.6715709,
+        "longitude": -120.3683576,
+        "openTimes": null
+    },
+    {
+        "id": 12,
+        "title": "Trades Ground Floor TT129",
+        "description": "From the main entrance, take the left hallway for roughly two thirds of its length until you reach TT129 on the left. The microwave is located in the hallway.",
+        "locationType": 0,
+        "latitude": 50.6714719,
+        "longitude": -120.3687022,
+        "openTimes": null
     }
 ]
