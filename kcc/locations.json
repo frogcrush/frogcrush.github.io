@@ -28,7 +28,7 @@
     },
     {
         "id": 4,
-        "title": "AE Third Floor Lunchroom Microwave",
+        "title": "Third Floor Lunchroom Microwave",
         "description": "Located on the third floor of the Arts & Education building, to reach it walk up either of the staircases to the left or right of the main Campus Commons entrance, then walk towards the center of the building. The microwave is in the corner with the Third Floor patio entrance, and may be hidden from view by the center wall if coming from the left side of the building.",
         "locationType": 0,
         "latitude": 50.67310301,
@@ -55,7 +55,7 @@
     },
     {
         "id": 7,
-        "title": "Trades Upper Entrance Microwave",
+        "title": "Trades Upper Entrance",
         "description": "Located in the second floor of the Trade Building, right by the upper second front entrance by the Horticultural Gardens. The microwave is located immediately to the left after entering the building.",
         "locationType": 0,
         "latitude": 50.6719524,
@@ -64,7 +64,7 @@
     },
     {
         "id": 8,
-        "title": "Trades Cafe Microwave",
+        "title": "Trades Cafe",
         "description": "Located in the second floor of the Trades Building, right by the Trades Cafe in the upper floor of the rounded glass area of the building. 3 microwaves immediately outside the Trades Cafe lunch area.",
         "locationType": 0,
         "latitude": 50.67191227,
@@ -73,7 +73,7 @@
     },
     {
         "id": 9,
-        "title": "Trades Ground Floor Microwave",
+        "title": "Trades Ground Floor",
         "description": "Located in the ground floor of the Trades Building by the main entrance. From the main entrance, take the left hallway. The microwave is immediately after the first set of doors.",
         "locationType": 0,
         "latitude": 50.6719348,
@@ -82,7 +82,7 @@
     },
     {
         "id": 10,
-        "title": "Piping Apprenticeship Microwave",
+        "title": "Piping Apprenticeship",
         "description": "From the main entrance, take the left hallway for roughtly half its length until you reach room TT129 (on your left). The microwave is visible from the hallway.",
         "locationType": 0,
         "latitude": 50.6715709,
@@ -91,7 +91,7 @@
     },
     {
         "id": 11,
-        "title": "Electrical Apprenticeship Microwave",
+        "title": "Electrical Apprenticeship",
         "description": "From the main entrance, take the left hallway for roughtly half its length until you reach room TT135 (on your left). The microwave is visible from the hallway.",
         "locationType": 0,
         "latitude": 50.6715709,
@@ -100,11 +100,114 @@
     },
     {
         "id": 12,
-        "title": "Trades Ground Floor TT129 Microwave",
+        "title": "Trades Ground Floor TT129",
         "description": "From the main entrance, take the left hallway for roughly two thirds of its length until you reach TT129 on the left. The microwave is located in the hallway.",
         "locationType": 0,
         "latitude": 50.6714719,
         "longitude": -120.3687022,
+        "openTimes": null
+    },
+    {
+        "id": 13,
+        "title": "Urban Market",
+        "description": "The place to go on campus for pizza prepared on-site and baked in our open-flame oven. Check out the rotating themed hot entrée station or indulge in our pasta feature. Feeling a bit more unique? Build your own customizable salad or wrap with our selections of greens, toppings, grains, proteins, garnishes and dressing. Our Chop N Top station also features signature artisan style salads and wraps such as buffalo chicken cobb, kale chicken caesar, mediterranean and southwest ranch chicken.",
+        "locationType": 4,
+        "latitude": 50.67258614,
+        "longitude": -120.36607633,
+        "openTimes": [
+            {
+                "dayStart": 1,
+                "dayEnd": 4,
+                "open": "10:00:00",
+                "close": "16:00:00"
+            },
+            {
+                "dayStart": 5,
+                "dayEnd": 5,
+                "open": "10:00:00",
+                "close": "14:30:00"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "title": "The Den",
+        "description": "This is a perfect location to host your next social gathering, whether it be a cocktail reception, holiday party or special event. Located on the second floor of the Campus Activity Centre, this 2,950-square-foot space can accommodate up to 220 people, making it ideal for smaller, intimate group functions.",
+        "locationType": 4,
+        "latitude": 50.67277242,
+        "longitude": -120.36596139,
+        "openTimes": null
+    } ,
+    {
+        "id": 15,
+        "title": "Common Grounds",
+        "description": "Common Grounds is your only student owned and operated coffee shop on campus striving for superior environmental and ethical standards. We offer fairly traded organic espresso, biodegradable cups and containers, living wages for student employees, and extended hours of service for when you need us most.",
+        "locationType": 4,
+        "latitude": 50.6731457,
+        "longitude": -120.36606922,
+        "openTimes": null
+    },
+    {
+        "id": 16,
+        "title": "Scratch Café",
+        "description": "Cafeteria run by students from the Culinary Arts program",
+        "locationType": 4,
+        "latitude": 50.66999119,
+        "longitude": -120.36262688,
+        "openTimes": null
+    },
+    {
+        "id": 17,
+        "title": "Tim Hortons",
+        "description": "Does Timmies need a description? ;)",
+        "locationType": 4,
+        "latitude": 50.6719313,
+        "longitude": -120.3652385,
+        "openTimes": null
+    },
+    {
+        "id": 18,
+        "title": "International Café",
+        "description": "",
+        "locationType": 4,
+        "latitude": 50.6725266,
+        "longitude": -120.364098,
+        "openTimes": null
+    },
+    {
+        "id": 19,
+        "title": "Bento Sushi",
+        "description": "",
+        "locationType": 4,
+        "latitude": 50.67131413,
+        "longitude": -120.3628838,
+        "openTimes": null
+    },
+    {
+        "id": 20,
+        "title": "Deli at U&M",
+        "description": "",
+        "locationType": 4,
+        "latitude": 50.67132707,
+        "longitude": -120.36290977,
+        "openTimes": null
+    },
+    {
+        "id": 21,
+        "title": "Bean Me Up",
+        "description": "",
+        "locationType": 4,
+        "latitude": 50.66954968,
+        "longitude": -120.36394588,
+        "openTimes": null
+    },
+    {
+        "id": 22,
+        "title": "Trades Café",
+        "description": "",
+        "locationType": 4,
+        "latitude": 50.67208029,
+        "longitude": -120.3675623,
         "openTimes": null
     }
 ]
