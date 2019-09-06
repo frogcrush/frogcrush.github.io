@@ -631,13 +631,14 @@ input[type='checkbox'] {
 	transition: all 0.2s;
 }
 
-.navbar-custom .navbar-brand.logo-image img {
-    
-	max-height: 56px;
+.navbar-custom .navbar-brand.logo-image img {    
+	max-height: 32px;
 	margin-bottom: 1px;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
+
+
 
 .navbar-custom .navbar-brand.logo-text {
 	font: 700 2.375rem/1.5rem "Montserrat", sans-serif;
@@ -1525,7 +1526,6 @@ a:hover.back-to-top {
 /*****************************/	
 /* Min-width width 768px */
 @media (min-width: 768px) {
-	
 	/* General Styles */
 	.p-heading {
 		width: 85%;
@@ -1932,6 +1932,13 @@ a:hover.back-to-top {
 
 /* Min-width width 1200px */
 @media (min-width: 1200px) {
+
+	
+	
+.navbar-custom .navbar-brand.logo-image img {
+	max-height: 56px;
+}
+	
 	
 	/* Navigation */
 	.navbar-custom {
