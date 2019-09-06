@@ -632,8 +632,8 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-    width: 113px;
-	height: 34px;
+    
+	max-height: 56px;
 	margin-bottom: 1px;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
@@ -1959,6 +1959,10 @@ a:hover.back-to-top {
 
 	.header .image-container {
 		margin-left: 3rem;
+	}
+
+	.image-container img {
+		max-height: 700px;
 	}
 	/* end of header */
 
