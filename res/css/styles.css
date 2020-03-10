@@ -2,5 +2,43 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: Roboto, Segoe UI, Open Sans, Arial;
+    height: 100%;
+    background: black;
 }
 
+a, a:hover, a:visited {
+    color: #00B2FF;
+}
+
+.blue {
+    color: #00B2FF;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.navbar-brand, .social-icons {
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+.social-icons {
+    color: white;
+    opacity: 0.6;
+}
+
+.home {
+    display: flex;
+    background: linear-gradient(234.4deg, #0C0C0C 0%, #1D1D1D 100.23%);
+    color: white;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-text {
+    max-width: 750px;
+
+}
