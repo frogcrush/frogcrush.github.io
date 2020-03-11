@@ -25,6 +25,8 @@
   <link href="res/css/bootstrap.min.css" rel="stylesheet">
   <link href="res/css/styles.css" rel="stylesheet">
   <link href="res/css/fontawesome-all.css" rel="stylesheet">
+  <link href="res/css/morphext.css" rel="stylesheet">
+  <link href="res/css/animate.css" rel="stylesheet">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-7BDVP9HHRB"></script>
@@ -49,45 +51,205 @@
 </head>
 
 <body>
-   <!-- Navbar -->
-   <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+  <!-- Navbar -->
+  <nav id="mainNav" class="navbar navbar-expand-md navbar-dark fixed-top">
     <a class="navbar-brand logo-text page-scroll" href="#">TYLOR<span class="blue thin">PATER</span></a>
 
     <!-- Mobile Menu Toggle Button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-awesome fas fa-bars"></span>
-        <span class="navbar-toggler-awesome fas fa-times"></span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-awesome fas fa-bars"></span>
+      <span class="navbar-toggler-awesome fas fa-times"></span>
     </button>
     <!-- end of mobile menu toggle button -->
 
     <div class="collapse navbar-collapse">
-        <span class="nav-item social-icons ml-auto">
-            <span class="fa-stack">
-                <a href="https://linkedin.com/in/tylorpater">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-            </span>
-            <span class="fa-stack">
-                <a href="mailto:tylor@tylorstech.com">
-                    <i class="far fa-envelope-open"></i>
-                </a>
-            </span>
+      <span class="nav-item social-icons ml-auto">
+        <span class="fa-stack">
+          <a href="https://linkedin.com/in/tylorpater">
+            <i class="fab fa-linkedin"></i>
+          </a>
         </span>
+        <span class="fa-stack">
+          <a href="mailto:tylor@tylorstech.com">
+            <i class="far fa-envelope-open"></i>
+          </a>
+        </span>
+      </span>
     </div>
-</nav> <!-- end of navbar -->
-<!-- end of navbar -->
+  </nav> <!-- end of navbar -->
+  <!-- end of navbar -->
 
-<div id="home" class="home">
-  <div class="home-text">
-    <h1>As a <strong>software developer</strong>, designing solutions is my <strong>life</strong>.</h1>
-    <h3>Currently, I'm pursuing a Bachelors of Computing Science at Thompson Rivers University.</h3>
-    <h3>Want to see <a href="#projects">what I've done?</a></h3>
+  <div id="home" class="home">
+    <div class="home-text">
+      <h1>As a <strong>software developer</strong>, designing solutions is my <strong><span id="js-rotating">life., passion.</span></strong></h1>
+      <h3>Currently, I'm pursuing a Bachelors of Computing Science at Thompson Rivers University.</h3>
+      <h3>Want to see <a href="#projects">what I've done?</a></h3>
+    </div>
   </div>
-</div>
 
+  <div id="about" class="about container-fluid">
+    <div class="row align-items-center">
+      <div class="col-9">
+        <div class="header">
+          Who am I?
+        </div>
 
-<script src="res/js/jquery.3.4.1.js"></script>
-<script src="res/js/bootstrap.min.js"></script>
+        <div>
+          <p>I’m a C#-loving computer nerd living in Kamloops, BC. Ever since I was 12, I’ve been playing around
+            programming on computers. Even before that, I was playing around with Windows Media Player skins and other
+            ways to hack and change the operating system. Since then, I’ve always been trying to learn, both through
+            academia and by creating small projects on my own. My list of projects trails way back, far beyond what I
+            can show on this website...</p>
+
+          <p>More recently, I’ve been attending Thompson Rivers University in order to get a Batchelors in Computing
+            Science. I also plan on getting a minor in management, after taking a large amount of management and
+            marketing-related electives. </p>
+
+          <p>Every day I try to learn something new, and I find myself attracted to environments and people that promote
+            learning. </p>
+
+          <p>I’m also terrible in photos.</p>
+        </div>
+      </div>
+
+      <div class="col">
+        <img src="res/img/meirl.png" />
+      </div>
+    </div>
+  </div>
+
+  <div class="section-separator">
+    <span>Recent Projects</span>
+  </div>
+
+  <div id="kcc" class="project container-fluid">
+    <div class="row align-items-center">
+      <div class="col-9">
+        <div class="header">
+          Kamloops Campus Companion
+        </div>
+
+        <div class="description">
+          After becoming frustrated with the Universities official companion app, I wrote my own using Xamarin.Forms. To
+          do so, I had to scrape JSON and HTML from the schools proprietary course management system. I then added a lot
+          more third-party functionality. You can see it <a href="https://tylorstech.com/kcc">here</a>.
+        </div>
+      </div>
+
+      <div class="col">
+        <img src="kcc/images/mockup-1.png" />
+      </div>
+    </div>
+  </div>
+
+  <div id="candleLightNet" class="project container-fluid">
+    <div class="row align-items-center">
+      <div class="col-9">
+        <div class="header">
+          CandleLightNet
+        </div>
+
+        <div class="description">
+          CandleLightNet is a .NET-compatible library that allows interaction with CandleLight-based CAN devices. I
+          developed it while working for Cypress Robotics. It is open-source and available on <a
+            href="https://github.com/frogcrush/CandleLightNet">GitHub</a>.
+        </div>
+      </div>
+
+      <div class="col">
+        <img src="res/img/candleLightNet.png" />
+      </div>
+    </div>
+  </div>
+
+  <div class="section-separator">
+    <span>Work Experience</span>
+  </div>
+
+  <div class="jobDesc container-fluid">
+    <div class="row align-items-center">
+      <div class="col-10">
+        <div class="header">
+          While working at Cypress Robotics, I...
+        </div>
+        <div>
+          <ul>
+            <li>Performed regular IT tasks for both Cypress Robotics and its parent company, Axis Forestry</li>
+            <li>Helped develop the control software for a complex processor head control system, operating over the CAN
+              protocol in C++ and QtQuick</li>
+            <li>Prototyped a rewrite of that system in a couple of days, using C# and WPF</li>
+            <li>Created a timeclock system for the company using .NET Core and ASP.NET MVC</li>
+            <li>Setup a syslog server, then wrote a React web interface for accessing stored logs and enabled remote
+              access via VNC or SSH (in the browser)</li>
+            <li>Developed software to interact with QuickBooks Desktop to synchronize on-premise inventory and pricing
+              data with the Axis Forestry website</li>
+            <li>Kickstarted development on a brand new controller for use with the Cypress Control System, including
+              breadboarding a prototype and developing the initial firmware</li>
+            <li>Designed and created the Cypress Robotics website, including setting up SEO and Google Analytics</li>
+            <li>Helped troubleshoot and debug software issues, both from home office and in the field (well... forest)
+            </li>
+            <li>Developed a new network infrastructure for the office based on pfSense, in order to band-aid the company
+              until it moved to a new building</li>
+            <li>Deployed a new network post-move using Ubiquiti hardware</li>
+            <li>Managed multiple virtual machines running Windows, Linux, and FreeBSD-based operating systems via Citrix
+              XenServer and XCP-NG</li>
+          </ul>
+        </div>
+        <div class="header">
+          ...worked my butt off
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="jobDesc container-fluid">
+    <div class="row align-items-center">
+      <div class="col-md-10">
+        <div class="header">
+          Now, I'm back at school full-time.
+        </div>
+        <div>
+          <p>I’ve decided to pursue research projects, like the TRU E-Bike Project, and otherwise focus on my studies in
+            order to graduate in a reasonable time-frame. I currently have a projected graduation date sometime in 2021.
+          </p>
+
+          <p>That being said, I’m always interested in new opportunities. Feel free to <a href="mailto:tylor@tylorstech.com">get in touch</a> or <a href="https://linkedin.com/in/tylorpater">connect with me</a>!</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="res/js/jquery.3.4.1.js"></script>
+  <script src="res/js/bootstrap.min.js"></script>
+  <script src="res/js/morphext.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).scroll(function () {
+      checkScroll();
+    });
+    $(document).ready(function () {
+      checkScroll();
+    });
+
+    function checkScroll() {
+      if ($(this).scrollTop() > ($("#home").height() - $("#mainNav").height())) {
+        $(".navbar-dark").css('background-color', 'black');
+      } else {
+        $('.navbar-dark').css('background-color', 'transparent');
+      }
+    }
+
+    $("#js-rotating").Morphext({
+    animation: "fadeIn",
+    separator: ",",
+    speed: 5000,
+    complete: function () {
+    }
+});
+
+  </script>
 </body>
 
 </html>
