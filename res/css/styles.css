@@ -6,6 +6,10 @@ html, body {
     background: white;
 }
 
+.home h3{
+    font-weight: normal;
+}
+
 a, a:hover, a:visited {
     color: #00B2FF;
 }
