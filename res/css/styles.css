@@ -4,6 +4,10 @@ html, body {
     font-family: Roboto, Segoe UI, Open Sans, Arial;
     height: 100%;
     background: white;
+    background-image: url('/res/img/website-background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .home h3{
